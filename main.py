@@ -25,4 +25,4 @@ if __name__ == "__main__":
         client.load_extension(extension)
 
 
-client.run(Token)
+client.run(os.environ['Token'])
