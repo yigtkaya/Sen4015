@@ -35,9 +35,7 @@ class CryptoTracker(commands.Cog):
     @commands.command()
     async def cryptohelp(self, message):
         await message.channel.send("How to use the cryptoTrack"
-                                   "\nlistall --> print out top 10 coin currently with their prices you can type "
-                                   "coin "
-                                   "name and get price like: "
+                                   "\n getAll --> print out top 10 coin currently with their prices you can type coin name and get price like: "
                                    "\nbitcoin --> Current price of bitcoin is 29543 $"
                                    "\nsolana --> Current price of solana is 44.5 $")
 
