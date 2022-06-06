@@ -24,5 +24,5 @@ if __name__ == "__main__":
     for extension in initial_extensions:
         client.load_extension(extension)
 
-Token = "OTcwMzQ0NjIzNTY4NDY2MDMx.GOTnPo.OBYgbxn3Okr65NkYnf6QOomwKWD7OeKniUK0i8"
+
 client.run(Token)
