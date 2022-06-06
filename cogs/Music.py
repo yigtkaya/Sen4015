@@ -17,13 +17,13 @@ class Music(commands.Cog):
     @commands.command()
     async def musichelp(self, message):
         await message.channel.send("After joining a voice channel in dc:"
-                                   "\n!join : bot joins the channel"
-                                   "\n!play (url or song name) : bot play the desired song"
-                                   "\n!pause: pauses song"
-                                   "\n!resume: resumes song"
-                                   "\n!skip / !stop: skips if anything on the queue, else displays message “no song is on the queue”"
-                                   "\n!showlist: shows the song queue to the user"
-                                   "\n!leave: bot leaves the channel")
+                                   "\njoin : bot joins the channel"
+                                   "\nplay (url or song name) : bot play the desired song"
+                                   "\npause: pauses song"
+                                   "\nresume: resumes song"
+                                   "\nskip / !stop: skips if anything on the queue, else displays message “no song is on the queue”"
+                                   "\nshowlist: shows the song queue to the user"
+                                   "\nleave: bot leaves the channel")
 
     @commands.command()
     async def leave(self, ctx):  # leave function
