@@ -7,3 +7,6 @@ type help commands to see what you can do:
     - cryptohelp
     - fliphelp
     - musichelp
+
+call bot in to your server with:
+https://discord.com/api/oauth2/authorize?client_id=970344623568466031&permissions=8&scope=bot
