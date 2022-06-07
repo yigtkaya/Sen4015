@@ -17,7 +17,7 @@ class FlipCoin(commands.Cog):
     @commands.command()
     async def fliphelp(self, message):
         await message.channel.send("type [flip] for flipping coin"
-                                   "\n flip --> Head wins or Tail win")
+                                   "\n flipcoin --> Head wins or Tail win")
 
 
 def setup(client):
